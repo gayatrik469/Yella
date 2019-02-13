@@ -15,7 +15,7 @@ public class CreateLead extends Annotations{
 		testcaseName = "CreateLead";
 		testDec = "Create a new lead in leaftaps";
 		author = "Sarath";
-		category = "Smoke";
+		category = "sanity";
 	}
 	@Test(dataProvider="cldata", groups="smoke", dependsOnGroups="any")
 	public void create(String cname, String fname, String lname) {
