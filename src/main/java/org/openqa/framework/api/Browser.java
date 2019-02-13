@@ -18,11 +18,11 @@ public interface Browser {
 	public void startApp(String url);
 	/**
 	 * This method will launch the Any browser and 
-	 * Maximize the browser and set the wait for 30 seconds 
+	 * Maximize the browser and set the wait for 10 seconds 
 	 * and load the url
 	 * @param browser - This will load the specified browser
 	 * @param url - This will load the specified url  
-	 * @author Sarath - TestLeaf
+	 * @author Gayatri - TestLeaf
 	 * @throws MalformedURLException 
 	 */
 	public void startApp(String browser, String url);
