@@ -13,7 +13,7 @@ public interface Browser {
 	 * This method will launch the chrome browser 
 	 * @param browser - This will load the specified browser
 	 * @author Sarath - TestLeaf
-	 * @throws MalformedURLException 
+	 * @throws MalformedURLException, WebDriverException 
 	 */
 	public void startApp(String url);
 	/**
